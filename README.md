@@ -1,6 +1,6 @@
+# NLP-Text-Preprocessing
 <img src="NLP.png" alt="NLP Text Preprocessing Banner" width="100%">
 
-# NLP-Text-Preprocessing
 A comprehensive Natural Language Processing (NLP) pipeline built with NLTK to clean, tokenize, normalize, and prepare textual data for advanced language modeling and analysis.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
