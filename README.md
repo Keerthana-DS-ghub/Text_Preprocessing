@@ -25,3 +25,8 @@ This project demonstrates end-to-end **text preprocessing** techniques using NLT
 - ✅ Removes punctuation and common English stopwords
 - ✅ Performs stemming and lemmatization to normalize words
 - ✅ Modular structure ideal for reuse in other NLP pipelines
+
+## 📂 Project Status
+
+🛠️ Work in Progress – code and pipeline are being expanded with new preprocessing techniques and error handling. Stay tuned!
+
