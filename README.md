@@ -5,28 +5,33 @@ A comprehensive Natural Language Processing (NLP) pipeline built with NLTK to cl
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![NLTK](https://img.shields.io/badge/NLTK-3.8+-orange)
+![spaCy](https://img.shields.io/badge/spaCy-3.7+-green)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 
 ## 📌 Overview
-This project demonstrates end-to-end **text preprocessing** techniques using NLTK, applied to documents describing various hobbies. Core steps include:
-- Tokenization of raw text and conversion to lowercase
-- Removal of punctuation and stopwords (including custom words)
-- Stemming and lemmatization using **PorterStemmer** and **WordNetLemmatizer**
-- Prepares text for further NLP tasks such as classification, summarization, or topic modeling
+This project implements a comprehensive text preprocessing pipeline using NLTK, applied on documents related to various hobbies. The pipeline efficiently processes raw text to improve data quality for downstream NLP tasks. Core steps include:
 
-## 🛠️ Tech Stack
-- **Platform**: Jupyter Notebook (or Google Colab)
-- **Languages**: Python
-- **Libraries**: NLTK
-- **Data**: Custom multi-document corpus of descriptive hobby texts
+✅End-to-end text preprocessing workflow: tokenization, normalization, noise removal, and word form standardization
+✅Case normalization by converting text to lowercase
+✅Removal of punctuation and both standard and customized stopwords to minimize irrelevant data
+✅Application of Porter Stemmer and WordNet Lemmatizer for stemming and lemmatization, enhancing the semantic quality of text
+✅Preparation of refined text data to boost the accuracy and effectiveness of subsequent NLP tasks such as classification, summarization, and topic modeling
+
+## 🧱 Tech Stack
+
+| Category     | Tool/Library       |
+|--------------|--------------------|
+| Language     | Python 3.10+        |
+| IDE          | Jupyter Notebook / VSCode |
+| Libraries    | NLTK, spaCy        |
+| File System  | Organized under `/snippets` directory |
+| Dataset      | Sample custom text (hobby descriptions) |
 
 ## 📂 Key Features
-- ✅ Tokenizes text and removes case sensitivity
-- ✅ Removes punctuation and common English stopwords
-- ✅ Performs stemming and lemmatization to normalize words
-- ✅ Modular structure ideal for reuse in other NLP pipelines
+✅ Efficient tokenization and case normalization
+✅Removal of punctuation and comprehensive stopword filtering (including custom stopwords)
+✅Robust stemming and lemmatization for linguistic normalization
+✅Modular and reusable pipeline components for seamless integration with other NLP projects
 
-## 📂 Project Status
-
-🛠️ Work in Progress – code and pipeline are being expanded with new preprocessing techniques and error handling. Stay tuned!
+📌 Note: This repo showcases only snippets, not full project code.
 
